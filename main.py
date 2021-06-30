@@ -36,10 +36,11 @@ print("..........................................................")
 mark = raw_input("Digite um valor válido  :")
 notas = [50, 10, 5, 1]
 saida = []
-resto =int(mark);
 saldo=0;
 assert (int(mark)),"O programa só aceita numeros inteiros ";
 assert (int(mark) > 0),"O valor tem que ser maior que zero para ser analisado ";
+
+resto =int(mark);
 
 while (resto > 0):
   for nota in range(len(notas)):
