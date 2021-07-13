@@ -30,6 +30,28 @@ A Classe herda da classe Celulares Android.
 ![image](https://user-images.githubusercontent.com/18727307/125479480-e6f2a129-5504-4941-90a7-bbd459aedfaa.png)
 
 
+A pai vamos exemplificar a criação d exceptions que serão invocadas através do artefato no qual não são implementadas nas classes filhas e será acionada através da classe abstrata ponto.
+
+![image](https://user-images.githubusercontent.com/18727307/125486921-47698659-be34-498c-a6bd-6eed522a11e8.png)
+
+Criamos então a unidade de código para representar e desacoplar as exceptions que será diparadas na aplicação.
+
+ class EENotMessagetextTecnology(Exception):
+  def __init__(self, message):
+    self.message = message
+
+
+class EENotCallVoice(Exception):
+  def __init__(self, message):
+    self.message = message 
+
+![image](https://user-images.githubusercontent.com/18727307/125487125-e586abeb-b204-4067-a4b4-e7b1f3085572.png)
+
+Vamos invocar o método chamadastelefonicas()  
+
+![image](https://user-images.githubusercontent.com/18727307/125487218-7ef26bea-a8a5-464e-a5af-6ce2cdd0a024.png)
+
+E teremos a Raise exception levantada pela aplicaçao.
 
 
 
