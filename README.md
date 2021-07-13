@@ -26,6 +26,10 @@ A Classe herda da classe Celulares Android.
 # O Artefato de exemplo para um MotorolaV8
 ![image](https://user-images.githubusercontent.com/18727307/125478582-6eb85ffc-ba20-4005-bb34-25308b581456.png)
 
+# A Saída 
+![image](https://user-images.githubusercontent.com/18727307/125479480-e6f2a129-5504-4941-90a7-bbd459aedfaa.png)
+
+
 
 
 
