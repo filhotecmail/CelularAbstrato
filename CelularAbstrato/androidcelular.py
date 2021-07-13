@@ -6,13 +6,10 @@ class AndroidCelular(AbstractCelular):
     def Deps(callback):
         pass
 
-    def ligar(self):
+    def ligar(numer= None):
         pass
 
     def desligar(self):
-        pass
-
-    def chamadastelefonicas(acallnumber):
         pass
 
     def textmessage(amessagetext):
